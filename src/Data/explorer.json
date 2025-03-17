@@ -1,0 +1,48 @@
+[
+    {
+        "id":1,
+        "name":"public",
+        "isFolder": true,
+        "children":[
+            {
+                "id":4,
+                "name":"index.html",
+                "isFolder": false
+            }
+        ]
+    },
+    {
+        "id":2,
+        "name":"src",
+        "isFolder": true,
+        "children":[
+            {
+                "id":5,
+                "name":"assets",
+                "isFolder": true,
+                "children":[
+                    {
+                        "id":8,
+                        "name":"react.svg",
+                        "isFolder": false
+                    }
+                ]
+            },
+            {
+                "id":6,
+                "name":"App.jsx",
+                "isFolder": false
+            },
+            {
+                "id":7,
+                "name":"index.css",
+                "isFolder": false
+            }
+        ]
+    },
+    {
+        "id":3,
+        "name":"package.json",
+        "isFolder": false
+    }
+]
