@@ -3,6 +3,7 @@ import data from "./Data/explorer.json";
 import Explorer from "./components/Explorer";
 import FilterSearch from "./components/FilterSearch";
 import ProgressBar from "./components/ProgressBar";
+import UseMemoHook from "./concepts/UseMemoHook";
 
 function App() {
   // const bars = [2, 5, 20, 40, 50, 75, 100];
@@ -13,7 +14,8 @@ function App() {
         {/* {bars.map((bar) => (
           <ProgressBar progress={bar} />
         ))} */}
-        <Explorer data={data} />
+        {/* <Explorer data={data} /> */}
+        <UseMemoHook />
       </div>
     </>
   );
