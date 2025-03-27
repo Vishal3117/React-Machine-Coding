@@ -3,7 +3,10 @@ import data from "./Data/explorer.json";
 import Explorer from "./components/Explorer";
 import FilterSearch from "./components/FilterSearch";
 import ProgressBar from "./components/ProgressBar";
+import UseCallbackHook from "./concepts/UseCallbackHook";
 import UseMemoHook from "./concepts/UseMemoHook";
+import UseRefHook from "./concepts/UseRefHook";
+import UseSWRHook from "./concepts/UseSWRHook";
 
 function App() {
   // const bars = [2, 5, 20, 40, 50, 75, 100];
@@ -15,7 +18,10 @@ function App() {
           <ProgressBar progress={bar} />
         ))} */}
         {/* <Explorer data={data} /> */}
-        <UseMemoHook />
+        {/* <UseMemoHook /> */}
+        {/* <UseRefHook /> */}
+        {/* <UseCallbackHook /> */}
+        <UseSWRHook />
       </div>
     </>
   );
