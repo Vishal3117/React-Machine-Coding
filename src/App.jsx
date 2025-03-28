@@ -3,6 +3,7 @@ import data from "./Data/explorer.json";
 import Explorer from "./components/Explorer";
 import FilterSearch from "./components/FilterSearch";
 import ProgressBar from "./components/ProgressBar";
+import ToastContainer from "./components/Toast/ToastContainer";
 import UseCallbackHook from "./concepts/UseCallbackHook";
 import UseMemoHook from "./concepts/UseMemoHook";
 import UseRefHook from "./concepts/UseRefHook";
@@ -21,7 +22,8 @@ function App() {
         {/* <UseMemoHook /> */}
         {/* <UseRefHook /> */}
         {/* <UseCallbackHook /> */}
-        <UseSWRHook />
+        {/* <UseSWRHook /> */}
+        <ToastContainer />
       </div>
     </>
   );

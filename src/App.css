@@ -19,7 +19,56 @@
   transition: 0.5s ease-in;
 }
 
-.container{
+.container {
   text-align: left;
-  padding: 0 20px ;
+  padding: 0 20px;
+}
+
+.toast-container {
+  position: fixed;
+  top: 0.5rem;
+  right: 1rem;
+}
+
+.toast {
+  width: 15rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  display: flex;
+  position: relative;
+  color: white;
+  animation: toast-slider 1s 1;
+  margin: 0.5rem;
+
+  span {
+    position: absolute;
+    right: 1rem;
+    font-size: 1rem;
+    bottom: 1rem;
+    cursor: pointer;
+  }
+}
+
+.success {
+  background-color: #46af46;
+}
+.info {
+  background-color: #5899fe;
+}
+.warning {
+  background-color: #fca200;
+}
+.error {
+  background-color: #df5239;
+}
+
+/* toaster animation */
+@keyframes toast-slider {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(0%);
+  }
 }
