@@ -24,6 +24,8 @@
   padding: 0 20px;
 }
 
+/* ***** Toaster Styling Starts ***** */
+
 .toast-container {
   position: fixed;
   top: 0.5rem;
@@ -71,4 +73,12 @@
   100% {
     transform: translateX(0%);
   }
+}
+
+/* ***** Toaster Styling Ends ***** */
+
+/* ***** Star Rating Styling Starts ***** */
+.starSpan {
+  color: goldenrod;
+  cursor: pointer;
 }
