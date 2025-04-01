@@ -82,3 +82,50 @@
   color: goldenrod;
   cursor: pointer;
 }
+
+/* ***** Star Rating Styling Ends ***** */
+
+/* ***** Pagination Styling Starts ***** */
+
+.post-container {
+  width: 550px;
+  height: 450px;
+  display: flex;
+  gap: 10px;
+  justify-content: space-evenly;
+}
+
+img {
+  height: 350px;
+  width: 250px;
+  border-radius: 10px;
+}
+.pagination-container {
+  width: 550px;
+  display: flex;
+  margin-left: 350px;
+  justify-content: space-evenly;
+}
+
+.page-btn {
+  background-color: black;
+  padding: 1rem;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.page-btn-active {
+  background-color: white;
+  padding: 1rem;
+  color: black;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+.page-btn:hover{
+transform: scale(0.8);
+}
+
+/* ***** Pagination Styling Ends ***** */

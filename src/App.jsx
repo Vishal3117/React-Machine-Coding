@@ -2,6 +2,7 @@ import "./App.css";
 // import data from "./Data/explorer.json";
 import Explorer from "./components/Explorer";
 import FilterSearch from "./components/FilterSearch";
+import PaginatedPost from "./components/Pagination/PaginatedPost";
 import ProgressBar from "./components/ProgressBar";
 import StarRating from "./components/StarRating";
 import ToastContainer from "./components/Toast/ToastContainer";
@@ -25,7 +26,8 @@ function App() {
         {/* <UseCallbackHook /> */}
         {/* <UseSWRHook /> */}
         {/* <ToastContainer /> */}
-        <StarRating starCount={10}/>
+        {/* <StarRating starCount={10}/> */}
+        <PaginatedPost />
       </div>
     </>
   );
