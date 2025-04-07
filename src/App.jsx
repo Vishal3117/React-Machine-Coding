@@ -2,6 +2,7 @@ import "./App.css";
 // import data from "./Data/explorer.json";
 import Explorer from "./components/Explorer";
 import FilterSearch from "./components/FilterSearch";
+import OTPInput from "./components/OTPInput";
 import PaginatedPost from "./components/Pagination/PaginatedPost";
 import ProgressBar from "./components/ProgressBar";
 import StarRating from "./components/StarRating";
@@ -27,7 +28,8 @@ function App() {
         {/* <UseSWRHook /> */}
         {/* <ToastContainer /> */}
         {/* <StarRating starCount={10}/> */}
-        <PaginatedPost />
+        {/* <PaginatedPost /> */}
+        <OTPInput />
       </div>
     </>
   );
