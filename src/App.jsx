@@ -2,6 +2,7 @@ import "./App.css";
 // import data from "./Data/explorer.json";
 import Explorer from "./components/Explorer";
 import FilterSearch from "./components/FilterSearch";
+import ImageCarousel from "./components/ImageCarousel";
 import OTPInput from "./components/OTPInput";
 import PaginatedPost from "./components/Pagination/PaginatedPost";
 import ProgressBar from "./components/ProgressBar";
@@ -29,7 +30,8 @@ function App() {
         {/* <ToastContainer /> */}
         {/* <StarRating starCount={10}/> */}
         {/* <PaginatedPost /> */}
-        <OTPInput />
+        {/* <OTPInput /> */}
+        <ImageCarousel />
       </div>
     </>
   );

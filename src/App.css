@@ -140,3 +140,35 @@ img {
 }
 
 /* ***** OTPInput Styling Ends ***** */
+
+/* ***** Image Carousel Styling Starts ***** */
+
+.carousel-container {
+  position: relative;
+}
+
+.carousel-img {
+  height: 600px;
+  width: 100%;
+}
+
+.left-btn,
+.right-btn {
+  position: absolute;
+  background-color: black;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 10px;
+  cursor: pointer;
+  top: 50%;
+}
+
+.left-btn {
+  left: 1rem;
+}
+
+.right-btn {
+  right: 1rem;
+}
+
+/* ***** Image Carousel Styling Ends ***** */
