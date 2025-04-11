@@ -1,4 +1,5 @@
 import "./App.css";
+import AutocompleteSearch from "./components/AutocompleteSearch";
 // import data from "./Data/explorer.json";
 import Explorer from "./components/Explorer";
 import FilterSearch from "./components/FilterSearch";
@@ -31,7 +32,8 @@ function App() {
         {/* <StarRating starCount={10}/> */}
         {/* <PaginatedPost /> */}
         {/* <OTPInput /> */}
-        <ImageCarousel />
+        {/* <ImageCarousel /> */}
+        <AutocompleteSearch />
       </div>
     </>
   );
