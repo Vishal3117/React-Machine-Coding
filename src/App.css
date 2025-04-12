@@ -173,6 +173,13 @@ img {
 
 /* ***** Image Carousel Styling Ends ***** */
 
-/* ***** Autocomplete Search Styling Starts ***** */
+/* ***** Infinite Scroll Styling Starts ***** */
+.img-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
 
-/* ***** Autocomplete Search Styling Ends ***** */
+/* ***** Infinite Scroll Styling Ends ***** */

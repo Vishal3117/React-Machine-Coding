@@ -4,6 +4,7 @@ import AutocompleteSearch from "./components/AutocompleteSearch";
 import Explorer from "./components/Explorer";
 import FilterSearch from "./components/FilterSearch";
 import ImageCarousel from "./components/ImageCarousel";
+import InfiniteScroll from "./components/InfiniteScroller/InfiniteScroll";
 import OTPInput from "./components/OTPInput";
 import PaginatedPost from "./components/Pagination/PaginatedPost";
 import ProgressBar from "./components/ProgressBar";
@@ -33,7 +34,8 @@ function App() {
         {/* <PaginatedPost /> */}
         {/* <OTPInput /> */}
         {/* <ImageCarousel /> */}
-        <AutocompleteSearch />
+        {/* <AutocompleteSearch /> */}
+        <InfiniteScroll />
       </div>
     </>
   );
