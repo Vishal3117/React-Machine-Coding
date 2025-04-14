@@ -183,3 +183,23 @@ img {
 }
 
 /* ***** Infinite Scroll Styling Ends ***** */
+
+/* ***** AnimatedProgress Styling Starts ***** */
+.progress-container {
+  position: relative;
+  height: 20px;
+  width: 300px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.progress {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: #fca200;
+  /* transform: translateX(-100%); */
+}
+
+/* ***** AnimatedProgress Styling Ends ***** */

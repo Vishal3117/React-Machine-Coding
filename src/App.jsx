@@ -1,4 +1,5 @@
 import "./App.css";
+import AnimatedProgress from "./components/AnimatedProgress";
 import AutocompleteSearch from "./components/AutocompleteSearch";
 // import data from "./Data/explorer.json";
 import Explorer from "./components/Explorer";
@@ -35,7 +36,8 @@ function App() {
         {/* <OTPInput /> */}
         {/* <ImageCarousel /> */}
         {/* <AutocompleteSearch /> */}
-        <InfiniteScroll />
+        {/* <InfiniteScroll /> */}
+        <AnimatedProgress />
       </div>
     </>
   );
