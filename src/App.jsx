@@ -1,4 +1,5 @@
 import "./App.css";
+import AccContainer from "./components/Accordion/AccContainer";
 import AnimatedProgress from "./components/AnimatedProgress";
 import AutocompleteSearch from "./components/AutocompleteSearch";
 // import data from "./Data/explorer.json";
@@ -37,7 +38,8 @@ function App() {
         {/* <ImageCarousel /> */}
         {/* <AutocompleteSearch /> */}
         {/* <InfiniteScroll /> */}
-        <AnimatedProgress />
+        {/* <AnimatedProgress /> */}
+        <AccContainer />
       </div>
     </>
   );

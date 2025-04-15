@@ -203,3 +203,24 @@ img {
 }
 
 /* ***** AnimatedProgress Styling Ends ***** */
+
+/* ***** Accordion Styling Starts ***** */
+.acc-container {
+  border: 1px black solid;
+  margin: 0.5rem;
+}
+
+.ques-box {
+  display: flex;
+  justify-content: space-between;
+}
+.faq-ques {
+  font-weight: bold;
+  margin-left: 1rem;
+}
+
+.faq-ans {
+  padding: 1rem;
+}
+
+/* ***** Accordion Styling Ends ***** */
